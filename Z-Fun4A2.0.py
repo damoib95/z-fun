@@ -1,6 +1,9 @@
 #Z-Fun4A 2.0
 #DIEGO MORALES 14012
 
+# deprecated
+# Starting on September 30, 2024, less secure apps, third-party apps, or devices that have you sign in with only your username and password will no longer be supported for Google Workspace accounts.
+
 ####Z-Fun4A 2.0
 #---Ingreso por texto o vox
 #---Interfaz grafica para android

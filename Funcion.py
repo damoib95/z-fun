@@ -12,9 +12,9 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from pylab import *
-import numpy as np
-import Factores
+#from pylab import *
+#import numpy as np
+#import Factores
 
 def Funcion(valor_a,valor_b):
     fig, ax = plt.subplots()

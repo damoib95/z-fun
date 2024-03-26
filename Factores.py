@@ -44,11 +44,11 @@ def funcion1(a1,ind):
                 if (((a1)*(FACTORES)))+ ind==0:
                     #Si da cero entonces se imprime el cero
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a1)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -64,11 +64,11 @@ def funcion1(a1,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a1)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a1)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -85,11 +85,11 @@ def funcion1(a1,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a1)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a1)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -104,17 +104,17 @@ def funcion1(a1,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a1)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a1)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
     if contador==0:
-        print "No se han encontrado ceros con los factores P/S"
+        print("No se han encontrado ceros con los factores P/S")
 #Funcion que encuentra los ceros racionales de los factores p/s de una funcion            
 def funcion2(a2,a,ind):
     f=0
@@ -135,11 +135,11 @@ def funcion2(a2,a,ind):
                 #print "Primer posible cero N:",FACTORESN
                 if (((a2)*(FACTORES**2))+((a)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**2))+((a)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -160,11 +160,11 @@ def funcion2(a2,a,ind):
                 #print "Primer posible cero N:",FACTORESN
                 if (((a2)*(FACTORES**2))+((a)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**2))+((a)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -186,11 +186,11 @@ def funcion2(a2,a,ind):
                 #print "Primer posible cero N:",FACTORESN
                 if (((a2)*(FACTORES**2))+((a)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**2))+((a)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -210,17 +210,17 @@ def funcion2(a2,a,ind):
                 #print "Primer posible cero N:",FACTORESN
                 if (((a2)*(FACTORES**2))+((a)*(FACTORES)))+ ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**2))+((a)*(FACTORESN)))+ ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
     if contador==0:
-        print "No se han encontrado ceros con los factores P/S"
+        print("No se han encontrado ceros con los factores P/S")
 #Funcion que encuentra los ceros racionales de los factores p/s de una funcion
 def funcion3(a2,a,b,ind):
     f=0
@@ -236,17 +236,17 @@ def funcion3(a2,a,b,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a2)*(FACTORES**3))+((a)*(FACTORES**2)))+ ((b)*(FACTORES)) + ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**3))+((a)*(FACTORESN**2)))+ ((b)*(FACTORESN)) + ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
         if contador==0:
-            print "No se han encontrado ceros con los factores P/S"
+            print("No se han encontrado ceros con los factores P/S")
     elif ind<0 and a2>0:
         inda=ind*-1
         while f<inda:
@@ -257,17 +257,17 @@ def funcion3(a2,a,b,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a2)*(FACTORES**3))+((a)*(FACTORES**2)))+ ((b)*(FACTORES)) + ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**3))+((a)*(FACTORESN**2)))+ ((b)*(FACTORESN)) + ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
         if contador==0:
-            print "No se han encontrado ceros con los factores P/S"
+            print("No se han encontrado ceros con los factores P/S")
     elif a2<0 and ind<0:
         a2a=a2*-1
         inda=ind*-1
@@ -279,17 +279,17 @@ def funcion3(a2,a,b,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a2)*(FACTORES**3))+((a)*(FACTORES**2)))+ ((b)*(FACTORES)) + ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**3))+((a)*(FACTORESN**2)))+ ((b)*(FACTORESN)) + ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
         if contador==0:
-            print "No se han encontrado ceros con los factores P/S"
+            print("No se han encontrado ceros con los factores P/S")
     else:
         while f<ind:
             factor=factores(ind,f)
@@ -299,17 +299,17 @@ def funcion3(a2,a,b,ind):
                 FACTORESN= (FACTORES*(-1))
                 if (((a2)*(FACTORES**3))+((a)*(FACTORES**2)))+ ((b)*(FACTORES)) + ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if (((a2)*(FACTORESN**3))+((a)*(FACTORESN**2)))+ ((b)*(FACTORESN)) + ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
     if contador==0:
-        print "No se han encontrado ceros con los factores P/S"
+        print("No se han encontrado ceros con los factores P/S")
 #Funcion que encuentra los ceros racionales de los factores p/s de una funcion
 def funcion4(a2,a,b,c,ind):
     f=0
@@ -325,11 +325,11 @@ def funcion4(a2,a,b,c,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**4))+((a)*(FACTORES**3))+((b)*(FACTORES**2))+((c)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**4))+((a)*(FACTORESN**3))+((b)*(FACTORESN**2))+((c)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -345,11 +345,11 @@ def funcion4(a2,a,b,c,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**4))+((a)*(FACTORES**3))+((b)*(FACTORES**2))+((c)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**4))+((a)*(FACTORESN**3))+((b)*(FACTORESN**2))+((c)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1            
                 fa=factor2
             fa=0
@@ -366,11 +366,11 @@ def funcion4(a2,a,b,c,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**4))+((a)*(FACTORES**3))+((b)*(FACTORES**2))+((c)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**4))+((a)*(FACTORESN**3))+((b)*(FACTORESN**2))+((c)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -385,17 +385,17 @@ def funcion4(a2,a,b,c,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**4))+((a)*(FACTORES**3))+((b)*(FACTORES**2))+((c)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**4))+((a)*(FACTORESN**3))+((b)*(FACTORESN**2))+((c)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
     if contador==0:
-        print "No se han encontrado ceros con los factores P/S"
+        print("No se han encontrado ceros con los factores P/S")
 #Funcion que encuentra los ceros racionales de los factores p/s de una funcion
 def funcion5(a2,a,b,c,d,ind):
     f=0
@@ -411,12 +411,12 @@ def funcion5(a2,a,b,c,d,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**5))+((a)*(FACTORES**4))+((b)*(FACTORES**3))+((c)*(FACTORES**2))+((d)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**5))+((a)*(FACTORESN**4))+((b)*(FACTORESN**3))+((c)*(FACTORESN**2))+((d)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
-                    contaodr+=1
+                    print(Cero)
+                    contador+=1
                 fa=factor2
             fa=0
             f=factor
@@ -431,11 +431,11 @@ def funcion5(a2,a,b,c,d,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**5))+((a)*(FACTORES**4))+((b)*(FACTORES**3))+((c)*(FACTORES**2))+((d)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**5))+((a)*(FACTORESN**4))+((b)*(FACTORESN**3))+((c)*(FACTORESN**2))+((d)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -452,11 +452,11 @@ def funcion5(a2,a,b,c,d,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**5))+((a)*(FACTORES**4))+((b)*(FACTORES**3))+((c)*(FACTORES**2))+((d)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**5))+((a)*(FACTORESN**4))+((b)*(FACTORESN**3))+((c)*(FACTORESN**2))+((d)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
@@ -471,16 +471,16 @@ def funcion5(a2,a,b,c,d,ind):
                 FACTORESN= (FACTORES*(-1))
                 if ((a2)*(FACTORES**5))+((a)*(FACTORES**4))+((b)*(FACTORES**3))+((c)*(FACTORES**2))+((d)*(FACTORES))+ind==0:
                     Cero=FACTORES
-                    print Cero
+                    print(Cero)
                     contador+=1
                 if ((a2)*(FACTORESN**5))+((a)*(FACTORESN**4))+((b)*(FACTORESN**3))+((c)*(FACTORESN**2))+((d)*(FACTORESN))+ind==0:
                     Cero=FACTORESN
-                    print Cero
+                    print(Cero)
                     contador+=1
                 fa=factor2
             fa=0
             f=factor
     if contador==0:
-        print "No se han encontrado ceros con los factores P/S"
+        print("No se han encontrado ceros con los factores P/S")
 
 
